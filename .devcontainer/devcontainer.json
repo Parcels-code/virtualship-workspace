@@ -4,7 +4,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "pip install git+https://github.com/Parcels-code/Parcels.git@main && pip install git+https://github.com/Parcels-code/virtualship.git@migrate-v4",
+  "postCreateCommand": "pip install git+https://github.com/Parcels-code/Parcels.git@main && pip install git+https://github.com/Parcels-code/virtualship.git@main",
   "customizations": {
     "vscode": {
       "settings": {
