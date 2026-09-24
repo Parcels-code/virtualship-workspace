@@ -17,7 +17,7 @@
         "python.terminal.activateEnvironment": true,
         // render the landing page as a markdown preview rather than raw source
         "workbench.editorAssociations": {
-          "**/.devcontainer/preview.md": "vscode.markdown.preview.editor"
+          "preview.md": "vscode.markdown.preview.editor"
         }
       },
       "extensions": [
