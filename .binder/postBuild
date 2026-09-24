@@ -41,3 +41,19 @@ while IFS= read -r file_path || [ -n "$file_path" ]; do
     exit 1
   fi
 done < "$LIST_FILE"
+
+# landing page: copy to the workspace root (Jupyter hides dot-directories such as .binder/)
+cp .binder/preview.md preview.md
+
+# open markdown files as rendered previews (rather than raw source) in JupyterLab
+LAB_SETTINGS_DIR="$(jupyter lab path | awk -F': *' '/Application directory/ {print $2}')/settings"
+mkdir -p "$LAB_SETTINGS_DIR"
+cat > "$LAB_SETTINGS_DIR/overrides.json" <<'JSON'
+{
+  "@jupyterlab/docmanager-extension:plugin": {
+    "defaultViewers": {
+      "markdown": "Markdown Preview"
+    }
+  }
+}
+JSON
