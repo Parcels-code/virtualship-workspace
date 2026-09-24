@@ -1,3 +1,5 @@
+<!-- 👋 Seeing raw text? Press Ctrl+Shift+V (Cmd+Shift+V on Mac) to view this page properly. -->
+
 <p align="center">
   <img alt="VirtualShip logo" width="450" src="https://github.com/Parcels-code/virtualship/raw/main/docs/_static/virtual_ship_logo.png">
 </p>
@@ -15,7 +17,7 @@ This is your **VirtualShip simulation workspace**: a cloud-based environment wit
   virtualship --help
   ```
 
-- Use the file explorer on the left to browse, create and edit your expedition files.
+- Use the file explorer on the left to browse and edit your files.
 
 ## Good to know
 

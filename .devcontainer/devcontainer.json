@@ -5,12 +5,9 @@
   },
   // TODO: point back to main when performance branch is merged into main
   "postCreateCommand": "pip install git+https://github.com/Parcels-code/Parcels.git@main && pip install git+https://github.com/Parcels-code/virtualship.git@performance",
+  // open the landing page on first attach
+  "postAttachCommand": "[ -f ~/.virtualship-preview-shown ] || { code .devcontainer/preview.md && touch ~/.virtualship-preview-shown; }",
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        ".devcontainer/preview.md"
-      ]
-    },
     "vscode": {
       "settings": {
         "python.defaultInterpreterPath": "/opt/venv/bin/python",
