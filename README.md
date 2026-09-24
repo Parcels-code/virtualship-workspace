@@ -7,7 +7,7 @@
 
 ## Workspace for VirtualShip simulations - GitHub Codespaces
 
-Here, we provide a pre-configured cloud-based environment for the `VirtualShip` software, via GitHub Codespaces. This environment has the software and dependencies pre-installed, allowing you to run VirtualShip simulations without the need for local installation.
+Here, we provide a pre-configured cloud-based environment for the `VirtualShip` software, via GitHub Codespaces. This environment has the software and dependencies pre-installed, allowing you to run **VirtualShip simulations** without the need for local installation.
 
 Full details on how to use this workspace can be found in the [VirtualShip documentation: Simulation Workspace Guide](https://virtualship.readthedocs.io/en/latest/user-guide/tutorials/codespaces_guide.html).
 
@@ -16,7 +16,7 @@ Full details on how to use this workspace can be found in the [VirtualShip docum
 
 ## Workspace for VirtualShip post-processing - Binder
 
-We also provide a pre-configured cloud-based environment for post-processing VirtualShip simulation results, via Binder. This environment builds a JupyterLab workspace with the necessary Python package and tutorial notebooks for analysing and visualising simulation data, without the need for local installation.
+We also provide a pre-configured cloud-based environment for **post-processing VirtualShip results**, via Binder. This environment builds a JupyterLab workspace with the necessary Python package and tutorial notebooks for analysing and visualising simulation data, without the need for local installation.
 
 Full details on how to use this workspace can be found in [VirtualShip documentation: Post-processing Workspace Guide](https://virtualship.readthedocs.io/en/latest/user-guide/tutorials/binder_guide.html)
     
