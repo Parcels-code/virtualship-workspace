@@ -42,6 +42,11 @@ while IFS= read -r file_path || [ -n "$file_path" ]; do
   fi
 done < "$LIST_FILE"
 
+# swap docs-only plotly HTML embedding for fig.show(), so figures render in Jupyter on Binder
+shopt -s nullglob
+python .binder/patch_notebooks.py "$TARGET_DIR"/*.ipynb
+shopt -u nullglob
+
 # landing page: copy to the workspace root
 cp .binder/welcome.md welcome.md
 
