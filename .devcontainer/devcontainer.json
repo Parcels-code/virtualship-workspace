@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile"
   },
   // TODO: point back to main when performance branch is merged into main
-  "postCreateCommand": "pip install git+https://github.com/Parcels-code/Parcels.git@main && pip install git+https://github.com/Parcels-code/virtualship.git@performance",
+  "postCreateCommand": "pip install git+https://github.com/Parcels-code/virtualship.git@performance",
   // open the landing page on first attach
   "postAttachCommand": "[ -f ~/.virtualship-welcome-shown ] || { code .devcontainer/welcome.md && touch ~/.virtualship-welcome-shown; }",
   "customizations": {
