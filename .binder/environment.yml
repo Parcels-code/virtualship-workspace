@@ -8,6 +8,7 @@ dependencies:
   - xarray
   - scipy
   - pandas
+  - polars
   - matplotlib
   - cartopy
   - cmocean

@@ -6,6 +6,8 @@ on:
     paths:
       - '.binder/files_to_fetch.txt'
       - '.binder/config.yaml'
+      - '.binder/patch_notebooks.py'
+      - 'tests/**'
   pull_request:
     types: [ opened, synchronize, reopened ]
     branches: [ main ]
@@ -31,6 +33,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest pyyaml
 
-      - name: Run notebook URL unit tests
+      - name: Run notebook URL and patch drift unit tests
         run: |
-          pytest tests/test_binder_files.py -v
+          pytest tests/ -v
