@@ -16,7 +16,4 @@ dependencies:
   - netcdf4
   - h5netcdf
   - plotly
-  - pip
-  # TODO: ideally rely on a stable release of Parcels v4, but for now pull from GitHub
-  - pip:
-      - git+https://github.com/Parcels-code/Parcels.git@main
+  - parcels>=4
