@@ -6,7 +6,7 @@
 
 # Welcome aboard! 🚢
 
-This is your **VirtualShip simulation workspace**: a cloud-based environment with `VirtualShip` and its dependencies already installed, ready for you to plan and run your virtual expedition.
+This is your **VirtualShip simulation workspace**: a cloud-based environment with `VirtualShip` and its dependencies already installed, ready for you to plan, run, and analyse your virtual expedition.
 
 ## Getting started
 
@@ -18,6 +18,7 @@ This is your **VirtualShip simulation workspace**: a cloud-based environment wit
   ```
 
 - Use the file explorer on the left to browse and edit your files.
+- See the `tutorials` folder on the left to get started with analysing your results
 
 ## Good to know
 
