@@ -31,6 +31,15 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel && \
     matplotlib \
     seaborn \
     scikit-learn \
-    openpyxl
+    openpyxl \
+    xarray \
+    polars \
+    cartopy \
+    cmocean \
+    geopy \
+    gsw \
+    netcdf4 \
+    h5netcdf \
+    plotly
 
 WORKDIR /workspaces

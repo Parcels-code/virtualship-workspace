@@ -3,7 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "postCreateCommand": "pip install git+https://github.com/Parcels-code/virtualship.git@main",
+  "postCreateCommand": "pip install git+https://github.com/Parcels-code/virtualship.git@main && bash .devcontainer/fetch_tutorials.sh",
   // open the landing page on first attach
   "postAttachCommand": "[ -f ~/.virtualship-welcome-shown ] || { code .devcontainer/welcome.md && touch ~/.virtualship-welcome-shown; }",
   "customizations": {
